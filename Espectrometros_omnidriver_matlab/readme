@@ -1,0 +1,9 @@
+Para poder conectar los espectrometros de la empresa "Ocean Optics" como por ejemplo los modelos USB2XXX o HR2XXX 
+necesitas instalar un driver llamado omniDriver d de la página de Ocean Optics (Buscando en la barra de busqueda
+"omnidriver" te da la opción de descargar el controlador ). 
+
+Este controlador aparece que es de paga pero al descargarlo es completamente gratis y no necesitas algun número
+de serie para activarlo.
+
+Se va a instalar en la dirección -- C:\Program Files\Ocean Optics\OmniDriver --, también lo puedes instalar en la 
+dirección que desees pero vas a necesitar guardar esa dirección.
