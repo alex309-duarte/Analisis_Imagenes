@@ -7,9 +7,12 @@ This readme contains instructions on how to install the MATLAB instrument driver
 (1) Create a new directory of your choosing, and unzip the ZIP file into that directory. For example, select all the files, unzip all the files into this directory:
 
     C:\MATLAB\R2012b\FileExchangeDownloads\
+    >In this locations you need to download the follow documents from this repository
+    	>javaclasspath.txt 
+	>javalibrarypath.txt 
+	>OceanOptics_OmniDriver.mdd
 
-
-(2) Please install OmniDriver from Ocean Optics. Typically the drivers will be installed in: 
+(2) Please install OmniDriver from Ocean Optics. Typically the drivers will be installed in, you can find the driver in official page of OceanOptics, read the readme before: 
   
     C:\Program Files\Ocean Optics\OmniDriver\OOI_HOME 
 
@@ -42,9 +45,9 @@ This readme contains instructions on how to install the MATLAB instrument driver
 
 	> The above commands should have opened the classpath.txt and librarypath.txt in the MATLAB editor.
 	> Add the OmniDriver installation folder to librarypath.txt. Typically you would have to add
-	C:\Program Files\Ocean Optics\OmniDriver\OOI_HOME 
+	$C:\Program Files\Ocean Optics\OmniDriver\OOI_HOME 
 	> Add the OmniDriver java API location to classpath.txt. Typically you would have to add
-	C:\Program Files\Ocean Optics\OmniDriver\OOI_HOME\OmniDriver.jar
+	$C:\Program Files\Ocean Optics\OmniDriver\OOI_HOME\OmniDriver.jar
 	
  
     Note: If you have changed the location of the driver installation folder please edit the content of these files appropriately.
