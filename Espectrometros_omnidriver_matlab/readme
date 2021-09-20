@@ -7,3 +7,10 @@ de serie para activarlo.
 
 Se va a instalar en la dirección -- C:\Program Files\Ocean Optics\OmniDriver --, también lo puedes instalar en la 
 dirección que desees pero vas a necesitar guardar esa dirección.
+
+Una vez instalado el driver, puedes hacer los pasos en el ConfigurarVariables, que configura las variables de matlab
+e indica en que direcciones van a ser modificadas las variables del programa.
+
+En la carpeta Ejemplos viene un programa, que puede ser ejecutado una vez que se configuró matlab para reconocer el driver,
+llamado "identificando_espectro.m" este programa se comunica con los espectrometros, HR4000 Y USB2000 y almacena los espectros en archivos de texto.
+También se despliega el ambos espectros en un plot de matlab.
