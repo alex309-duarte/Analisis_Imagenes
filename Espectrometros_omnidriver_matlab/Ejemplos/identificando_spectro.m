@@ -69,8 +69,8 @@ wavelengths_1 = zeros(1, 2050);
 wavelengths = zeros(1, 3650);
 spectralData_1 = zeros(1, 2050);
 spectralData = zeros(1, 3650);
-tic
-for i = 1:1:200;
+tic  %Comenzamos a cotar el tiempo
+for i = 1:1:200; %adquirimos 200 espectros
     figure(1)
     spectrometerIndex = 0;
     wavelengths = invoke(spectrometerObj, 'getWavelengths', spectrometerIndex, channelIndex);
@@ -87,18 +87,18 @@ for i = 1:1:200;
     data = [wavelengths, spectralData];
     %fopen() %probar fopen para ver si se guardan los archivos bien
     %save("usb2000-"+num2str(i)+".txt","data",'-ascii');
-    %writematrix(data,"usb2000-"+num2str(i)+".txt");
+    writematrix(data,"usb2000-"+num2str(i)+".txt");
     disp(i)
-    %plot(wavelengths, spectralData);
-    %hold on
-    %plot(wavelengths_1, spectralData_1);
+    plot(wavelengths, spectralData);
+    hold on
+    plot(wavelengths_1, spectralData_1);
     %title('Optical Spectrum');
     %ylabel('Intensity (counts)');
     %xlabel('\lambda (nm)');
-    %grid on
+    grid on
     %axis tight
-    %axis([100 1200 0 2000])
-    %hold off
+    axis([100 1200 0 2000])
+    hold off
     %clear data wavelengths spectralData;
     %
 end
