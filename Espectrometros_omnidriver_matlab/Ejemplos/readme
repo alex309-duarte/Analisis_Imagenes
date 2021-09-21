@@ -1,0 +1,12 @@
+Esta carpeta contienen algunos ejemplos de como utilizar el dirver "omniDriver" para visualizar 
+los espectros obtenidos en matlab
+
+Este controlador se basa en java y para acceder a las funciones y métodos es necesario crear la instancia
+o el objeto Omnidriver a través de alguno de los métodos siguientes.
+
+  > wrapper = com.oceanoptics.omnidriver.api.wrapper.Wrapper();
+  > spectrometerObj = icdevice('OceanOptics_OmniDriver.mdd');
+  
+  
+La documentación, todos los métodos del onjeto, se encuentran descritos en el siguiente link
+  >https://www.oceaninsight.com/globalassets/catalog-blocks-and-images/software-downloads-installers/javadocs-api/omnidriver/index.html?com/oceanoptics/omnidriver/spectrometer/Coefficients.html
