@@ -3,7 +3,9 @@ necesitas instalar un driver llamado omniDriver d de la página de Ocean Optics 
 "omnidriver" te da la opción de descargar el controlador ). 
 
 Este controlador aparece que es de paga pero al descargarlo es completamente gratis y no necesitas algun número
-de serie para activarlo.
+si deseas usarlo en matlab, sin embargo si necsitas programas en otro lenguaje necesitas una clave, y en  instalador 
+deberas seleccionar la optción que requiere pasword para aceder a las librerias que te permiten comunicarte con las funciones
+del espectrómetro "https://www.higp.hawaii.edu/~harold/Lapfly_V5/OODrivers_64/omni_pass.txt"
 
 Se va a instalar en la dirección -- C:\Program Files\Ocean Optics\OmniDriver --, también lo puedes instalar en la 
 dirección que desees pero vas a necesitar guardar esa dirección.
